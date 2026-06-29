@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+#page-title{
+        width: 50%;
+        padding: auto;
+        margin: auto;
+        text-align: center;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 50px;
+}
+.card{
+    width: 304px;
+    border: 2px solid black;
+    border-radius: 50px;
+
+}
+
+.image{
+    width: 300px; 
+    height: 350px;        /* Reduce the width so centering is visible */
+    display: block;     /* Changes the image from inline to block */
+    margin: auto;
+    background: white;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.product-info{
+    margin :20px;
+}
+
+.product-title{
+    direction: rtl;
+    font-size: 25px;
+}
+.desc{
+    direction: rtl;
+    color: gray;
+}
+.price{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
